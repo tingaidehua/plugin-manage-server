@@ -1,11 +1,11 @@
 {
-  "name": "dsh-manage-server",
+  "name": "plugin-manage-server",
   "version": "0.1.0",
   "description": "DeepSeek Harness plugin: server inventory, health alerts, read-only security baseline.",
   "type": "module",
   "main": "index.js",
   "files": ["index.js", "lib/**", "cordis.patch.yml", "README.md"],
-  "keywords": ["dsh-plugin", "ops", "monitoring"],
+  "keywords": ["agent-plugin", "ops", "monitoring"],
   "license": "MIT",
   "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
   "peerDependencies": { "@deepseek-ai/dsh-tools": "^0.2.1-alpha.2" },
